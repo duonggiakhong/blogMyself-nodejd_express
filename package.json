@@ -1,0 +1,31 @@
+{
+  "name": "blogmyself-nodejd_express",
+  "version": "1.0.0",
+  "description": "blogMyself",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duonggiakhong/blogMyself-nodejd_express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duonggiakhong/blogMyself-nodejd_express/issues"
+  },
+  "homepage": "https://github.com/duonggiakhong/blogMyself-nodejd_express#readme",
+  "dependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/node": "^7.15.4",
+    "@babel/preset-env": "^7.15.6",
+    "body-parser": "^1.19.0",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mysql2": "^3.4.2",
+    "nodemon": "^2.0.12"
+  }
+}
